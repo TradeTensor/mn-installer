@@ -23,6 +23,7 @@ chmod 755 install.sh
 bash install.sh
 
 Now wait for some time for configuration and installation to get complete.
+
 ► STEP 7 : ENTER YOUR MASTERNODE PRIVATE KEY GENERATED FROM LOCAL WALLET
 
 THATS IT , YOUR TradeTensor MASTERNODE IS NOW RUNNING ON VPS. SIMPLY CONFIGURE YOUR LOCAL WALLET FOR MASTERNODE AND START.
