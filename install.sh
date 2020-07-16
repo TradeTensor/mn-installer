@@ -9,8 +9,8 @@ COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/TradeTensor/tradetensor/releases/download/v2/tnsr-linux-daemon.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='tradetensor'
-COIN_PORT=27413
-RPC_PORT=37413
+COIN_PORT=30130
+RPC_PORT=30131
 
 NODEIP=$(curl -s4 api.ipify.org)
 
