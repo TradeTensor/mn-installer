@@ -1,6 +1,6 @@
-► STEP 1 : CREATE SWAP FILE AND ALLOWING PORT 27413 ON FIREWALL [Copy paste below code as it is and hit enter]
+► STEP 1 : CREATE SWAP FILE AND ALLOWING PORT 30130 ON FIREWALL [Copy paste below code as it is and hit enter]
 
-dd if=/dev/zero of=/mnt/myswap.swap bs=1M count=4000 && mkswap /mnt/myswap.swap && chmod 0600 /mnt/myswap.swap && swapon /mnt/myswap.swap && ufw allow 22/tcp && ufw limit 22/tcp && ufw allow 27413/tcp && ufw logging on && ufw --force enable
+dd if=/dev/zero of=/mnt/myswap.swap bs=1M count=4000 && mkswap /mnt/myswap.swap && chmod 0600 /mnt/myswap.swap && swapon /mnt/myswap.swap && ufw allow 22/tcp && ufw limit 22/tcp && ufw allow 30130/tcp && ufw logging on && ufw --force enable
 
 ► STEP 2 : INSTALL DEPENDENCIES REQUIRED [Copy paste below code as it is and hit enter]
 
